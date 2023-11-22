@@ -75,7 +75,7 @@ calorieSubmit.addEventListener("click", function (event) {
 showExercise.addEventListener("click", function (event) {
   const select = exerciseSelect.value;
   if (select != "none"){
-<img src= "/exercises " + select + "png";
+    exercisePic.src = "/exercise" + select + ".svg";
     exercisePic.style = "background: #EBEBEB; padding: 2rem; border-radius: 16px; box-shadow: 0 0 4px #000";
   }
 });
